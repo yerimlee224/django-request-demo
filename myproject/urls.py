@@ -7,6 +7,7 @@ def home(request):
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('accounts.urls')),
     path('book/', include('apps.book.urls')),
     path('pybo/', include('pybo.urls')),
     path('', home),  # ← 빈 경로에 대응

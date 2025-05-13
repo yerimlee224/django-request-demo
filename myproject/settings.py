@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'apps.book',
     'book',
     'request_test',
+    'accounts',
 
 ]
 
